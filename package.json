@@ -1,0 +1,20 @@
+{
+  "name": "Data_Creation_MID",
+  "version": "1.0.0",
+  "description": "",
+  "main": "names.js",
+  "scripts": {
+    "start": "json-server --watch Merchant_Ids.json --port 3004",
+    "startgen": "json-server --watch data.json --port 3030",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "g": "^2.0.1",
+    "jason-server": "^3.0.0",
+    "json-server": "^0.16.3"
+  }
+}
